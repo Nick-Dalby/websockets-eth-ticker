@@ -22,7 +22,8 @@ function App() {
     }
 
     const timer = setInterval(() => {
-      setEth(parseFloat(data?.p).toFixed(2))
+
+      setEth(parseFloat(data.p).toFixed(2))
     }, 3000)
 
     return () => {
